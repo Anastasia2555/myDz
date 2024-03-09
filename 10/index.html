@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosk</title>
+</head>
+<body>
+<div id="kiosk-container"></div>
+<select id="item-select">
+    <option value="beer">Beer</option>
+    <option value="chips">Chips</option>
+    <option value="chocolate">Chocolate</option>
+</select>
+<input type="number" id="quantity-input" placeholder="Quantity">
+<input type="number" id="money-input" placeholder="Money spent">
+<button id="buy-button">Buy</button>
+<div id="cash-register"></div>
+<div id="total-spent"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js"></script>
+<script src="reducer.js"></script>
+<script src="store.js"></script>
+<script src="actionCreators.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
